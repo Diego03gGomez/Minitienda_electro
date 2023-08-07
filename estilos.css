@@ -615,12 +615,15 @@ footer{
 /*ESTILOS PARA CONTENEDOR OCULTO*/
 .contenedor_oculto{
    top: 25px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: #f6472b;
     display: none;
     padding-top: 100px;
     padding-bottom: 100px;
+    z-index: 995;
+    height: 100%;
+    top: 0;
     
 }
 
