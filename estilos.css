@@ -610,6 +610,9 @@ footer{
     display: none;
 }
 
+.fondo_carrito{
+    display: none;
+}
 
 
 /*ESTILOS PARA CONTENEDOR OCULTO*/

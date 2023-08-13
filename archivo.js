@@ -27,8 +27,8 @@ let computadoras=$.grep(array_productos, function (value) {
 
 $(document).ready(function () {
     
-
-     $(".contenedor_carrito").hide();
+   /* $(".contenedor_carrito").hide();*/
+  
 
 /* MOSTRANNDO LOS ELEMENTOS DE LOS OBJETOS*/
 
@@ -287,7 +287,7 @@ $(".iconos").find("a").eq(2).click(function (e) {
     e.preventDefault();
 
 
-    $(".contenedor_carrito").fadeIn();
+    $(".fondo_carrito").fadeIn();
     
 });
 
@@ -295,7 +295,7 @@ $(".iconos").find("a").eq(2).click(function (e) {
 
 $(".equis2").click(function (e) { 
     e.preventDefault();
-$(".contenedor_carrito").fadeOut();
+$(".fondo_carrito").fadeOut();
 
 
     
