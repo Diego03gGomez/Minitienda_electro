@@ -1035,3 +1035,26 @@ width: 100%
 }
 
 }
+
+
+
+
+@media (max-width: 400px){
+
+    .contenedor_products, .contenedor_celulares, .contenedor_pc {
+        grid-template-columns: 1fr;
+        width: 64%;
+    }
+
+
+    .filtros{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #boton {
+        padding: 6px 30px;
+    }
+
+}
